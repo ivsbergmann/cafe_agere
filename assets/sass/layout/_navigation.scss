@@ -1,0 +1,29 @@
+.navbar {
+    box-sizing: border-box;
+    padding: 20px 50px;
+    width: 100%;
+
+    &__brand {
+        height: 41px;
+        padding: 0 45px 0 0;
+        width: auto;
+      }
+    
+  
+    &__item {
+      display: inline-block;
+      margin: 0 35px 0 0;
+      vertical-align: middle;
+    }
+  
+   
+    &__side {
+      float: right;
+    }
+  
+    &__item--side {
+      display: inline-block;
+      margin: 0 0 0 30px;
+      vertical-align: middle;
+    }
+  }
